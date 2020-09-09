@@ -1,0 +1,4 @@
+C:\Estructura de datos\Clase4.1\Ejercicio 12\obj\Debug\netcoreapp3.1\Ejercicio 12.csprojAssemblyReference.cache
+C:\Estructura de datos\Clase4.1\Ejercicio 12\obj\Debug\netcoreapp3.1\Ejercicio 12.AssemblyInfoInputs.cache
+C:\Estructura de datos\Clase4.1\Ejercicio 12\obj\Debug\netcoreapp3.1\Ejercicio 12.AssemblyInfo.cs
+C:\Estructura de datos\Clase4.1\Ejercicio 12\obj\Debug\netcoreapp3.1\Ejercicio 12.csproj.CoreCompileInputs.cache
