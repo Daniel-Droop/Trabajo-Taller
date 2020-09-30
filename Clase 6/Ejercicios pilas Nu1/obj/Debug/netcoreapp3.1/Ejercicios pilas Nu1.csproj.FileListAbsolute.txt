@@ -1,0 +1,13 @@
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\bin\Debug\netcoreapp3.1\Ejercicios pilas Nu1.exe
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\bin\Debug\netcoreapp3.1\Ejercicios pilas Nu1.deps.json
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\bin\Debug\netcoreapp3.1\Ejercicios pilas Nu1.runtimeconfig.json
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\bin\Debug\netcoreapp3.1\Ejercicios pilas Nu1.runtimeconfig.dev.json
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\bin\Debug\netcoreapp3.1\Ejercicios pilas Nu1.dll
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\bin\Debug\netcoreapp3.1\Ejercicios pilas Nu1.pdb
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\obj\Debug\netcoreapp3.1\Ejercicios pilas Nu1.csprojAssemblyReference.cache
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\obj\Debug\netcoreapp3.1\Ejercicios pilas Nu1.AssemblyInfoInputs.cache
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\obj\Debug\netcoreapp3.1\Ejercicios pilas Nu1.AssemblyInfo.cs
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\obj\Debug\netcoreapp3.1\Ejercicios pilas Nu1.csproj.CoreCompileInputs.cache
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\obj\Debug\netcoreapp3.1\Ejercicios pilas Nu1.dll
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\obj\Debug\netcoreapp3.1\Ejercicios pilas Nu1.pdb
+C:\Estructura de datos\Clase 6\Ejercicios pilas Nu1\obj\Debug\netcoreapp3.1\Ejercicios pilas Nu1.genruntimeconfig.cache
