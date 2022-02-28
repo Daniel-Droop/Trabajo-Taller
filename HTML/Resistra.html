@@ -1,0 +1,59 @@
+<?php
+require '../Clases/Conexion.php';
+require '../Clases/RDB.php';
+$objConexion = new conexion();
+$objConexion -> obtener();
+$RDB = new registrodb();
+$datos = $RDB -> datosregistro(); 
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Estilo/EsitlosR.css">
+    <title>parte 2</title> 
+</head>
+<body>
+    <section class="contenedor sombra">
+        <h2>Datos ingresados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>nombre</th>
+                    <th>apelldio</th>
+                    <th>correo</th>
+                    <th>telefono</th>
+                    <th>cedula</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                    $xhtml="";
+                    foreach ($datos as $indice => $campo) {
+                        $xhtml .="<tr>\n";
+                        $xhtml .="<td>{$campo["Codiogo"]}</td>";
+                        $xhtml .="<td>{$campo["nombre"]}</td>";
+                        $xhtml .="<td>{$campo["apellido"]}</td>";
+                        $xhtml .="<td>{$campo["correo"]}</td>";
+                        $xhtml .="<td>{$campo["telefono"]}</td>";
+                        $xhtml .="<td>{$campo["cedula"]}</td>";
+                        $xhtml .="<td>"
+                            . "<a href='EditarRegistro.php?id={$campo["codigoregistro"]}'><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-edit\" width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"#ff9300\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\">
+                            <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>
+                            <path d=\"M9 7h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3\" />
+                            <path d=\"M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3\" />
+                            <line x1=\"16\" y1=\"5\" x2=\"19\" y2=\"8\" />
+                            </svg></a>"
+                        $xhtml .="</tr>\n";
+                    }
+                    echo $xhtml;
+                ?>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

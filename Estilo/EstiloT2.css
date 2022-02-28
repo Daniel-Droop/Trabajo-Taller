@@ -1,0 +1,98 @@
+.input-text {
+    width: 65%;
+    border: none;
+    padding: 1rem;
+    border-radius: .5rem;
+    position: relative;
+}
+.sombra {
+    /*agregamos la sombra al rededor del marco del main*/
+    /*desplazamiento horizontal ,  vertical, radio utilizado 
+     para difuminar la sombra, radio con el que se expande*/
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+    background-color: #fff;
+    padding: 2rem; /*separación de arriba*/
+    border-radius: 1em;
+    position: relative;
+}
+
+.contenedor { /*centrar el contenido*/
+    width: 90%; /*le diremos que tome como maximo 120rem*/
+    max-width: 90%;
+    margin: 0 auto;
+}
+.formulario {
+    background-color: indigo;
+    width: 60%;
+    /*margi 0 auto centrar hor ->elemento que el padre no es diaplay flex*/
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.contenedor-campo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*tamaño de las filas*/
+    grid-template-rows: 6rem 6rem;
+    column-gap: 1rem;
+}
+.campo label {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+}
+.flex {
+    display: flex;
+}
+
+.alinear-centro {
+    justify-content: center;
+}
+.enviar {
+    width: 100%;
+}
+.boton {
+    background-color: #0097a7;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .8rem;
+    width: auto;
+    text-align: center;
+    border: none;
+}
+.formulario fieldset {
+    border: none;
+    text-align: justify;
+}
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: aqua;
+}
+table {
+    width: 100%;
+    border: ridge;
+    text-align: justify
+}
+
+label.validacionError {
+    color: #ff3333;
+}
+
+.validacionCorrecta {
+    color: #ccff66;
+}
+.rrr{
+    position: relative;
+    text-align: center;
+    background-color: aqua;
+}
